@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Soccer League Teams</string>
+
+    <!-- MainActivityResources-->
+
+    <string name="tv_league_selection">Choose a league: </string>
+
+
+    <string name="spanish_league_code">4335</string>
+    <string name="english_league_code">4328</string>
+    <string name="italian_league_code">4332</string>
+    <string name="italian_league_title">Italian Serie A</string>
+    <string name="english_league_title">English League</string>
+    <string name="spanish_league_title">La Liga</string>
+
+</resources>
