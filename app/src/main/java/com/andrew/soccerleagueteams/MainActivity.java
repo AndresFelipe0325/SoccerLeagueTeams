@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.andrew.soccerleagueteams.Interface.MainActivityInterface;
+
+public class MainActivity extends AppCompatActivity implements MainActivityInterface.MainActivityView, MainActivityInterface.MainActivityPresenter {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

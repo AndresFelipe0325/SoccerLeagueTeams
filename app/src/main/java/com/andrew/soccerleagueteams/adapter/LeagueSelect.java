@@ -47,7 +47,7 @@ public class LeagueSelect extends ArrayAdapter<CountryItem> {
     private View initView(int position, View convertView, ViewGroup parent){
         CountryItem leagueSelected = leagueList.get(position);
         if(convertView == null){
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.spinner_items, parent, false);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.spinner_items, parent, false);
         }
 
         ImageView flag = convertView.findViewById(R.id.iv_flag);
